@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: #ededed;
+}
+
+#nav {
+  height: 8%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
+  padding: 0 30px;
+}
+
+#nav h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#nav i {
+  background-color: black;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+#center {
+  height: 59.2%;
+  width: 100%;
+  margin-top: 2px;
+  padding: 0 50px;
+}
+
+#center h1 {
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 80px;
+}
+
+#center-in {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#center-in p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+#right {
+  width: 20%;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-top: 2px solid black;
+}
+
+.links a {
+  font-weight: 700;
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+}
+
+.links i {
+  font-size: 20px;
+  opacity: 0;
+  font-weight: 700;
+}
+
+.links:hover i {
+  opacity: 1;
+}
+
+.links:hover {
+  background-color: rgb(197, 195, 195);
+}
+
+.links:hover a {
+  text-decoration: underline;
+}
+
+#bottom {
+  height: 32.5%;
+  width: 100%;
+  background-image: url(https://images.unsplash.com/photo-1546525600-ff26945f78c2?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: 0 16%;
+}
