@@ -12,6 +12,12 @@ const projects = [
         bgColor: 'bg-teal-500',
         hoverColor: 'hover:bg-teal-600'
     },
+    {
+        name: 'Project 3',
+        url: '/03-Project/index.html',
+        bgColor: 'bg-red-500',
+        hoverColor: 'hover:bg-red-600'
+    },
 ];
 
 // Get the UL element from the HTML

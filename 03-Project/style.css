@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 30px;
+}
+
+#nav-p2 {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+#nav h3 {
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+}
+
+#center {
+  width: 67.5%;
+  margin: 90px 230px;
+}
+
+#main h1 {
+  position: relative;
+  z-index: 9;
+  font-size: 130px;
+  text-transform: uppercase;
+  font-weight: 400;
+  line-height: 110px;
+}
+
+h1:nth-child(2) {
+  text-align: right;
+}
+
+h1:nth-child(1) {
+  text-align: left;
+}
+
+h1:nth-child(3) {
+  text-align: right;
+  margin-right: 200px;
+}
+
+img {
+  height: 300px;
+  position: absolute;;
+  top: 10%;
+  left: 40%;
+}
+
+#img1 {
+  rotate: 22deg;
+}
+
+#img2 {
+  rotate: 12deg;
+}
